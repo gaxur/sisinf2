@@ -10,7 +10,7 @@ services:
       - ./config:/etc/odoo
 
   db:
-    image: postgres:13
+    image: postgres:15
     environment:
       POSTGRES_DB: postgres
       POSTGRES_PASSWORD: odoo
