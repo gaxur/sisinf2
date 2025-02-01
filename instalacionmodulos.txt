@@ -1,0 +1,67 @@
+¡IMPORTANTE¡ -> REALIZAR TODO LO SIGUIENTE EN LA BD FINAL A ENTREGAR + CAPTURAS DE PANTALLA PROCESO INSTALACION INICIAL + CAPTURAS DE PANTALLA INSTALACION MODULOS (1 por pagina)
+¡IMPORTANTE¡ -> PARA CAMBIAR EL NOMBRE DE LA BD, SE PUEDE IMPORTAR LA DE GITHUB Y DUPLICARLA CAMBIANDOLE EL NOMBRE
+
+CONFIGURACION INICIAL CREACION DB (credenciales y demas)
+1- Se rellena los atributos que se solicitan por pantalla siendo los siguientes: 
+  - Master Passwd: admin (se guarda la que se nos da por si acaso, ya que si se da "Access Denied" se debe usar la que nos dan) -> "e"ef!+rEp3ckbAY"
+  - DataBase name: nombre_grupo (ver que nombre se pone)
+  - Email: admin (en teoria da igual)
+  - Passwd: admin
+  - Phone number: ----
+  - Language: Spanish/Español
+  - Country: Spain
+  - Demo Data: NO 
+2- Se crea el usuario admin:admin
+
+INSTALACION MODULO BLOG (PROBADO TAMBIEN)
+1- Se introduce las credenciales para entrar al software (correo: admin, contraseña: admin)
+2- Se quita el filtro de "Aplicaciones"
+3- Se introduce en la barra de busqueda la palabra "Blog"
+4- Se selecciona la opcion "Activar" que se encuentra en el modulo Blog (se redirige a una configuración de un sitio web)
+5- Se selecciona el recuadro donde pone "Vamos a hacerlo" y se va rellenando o seleccionando cada fragmento a rellenar (se selecciona la opcion blog para este caso)
+ (se ha elegido la opcion de una empresa de ropa)
+6- Se selecciona la paleta de colores o mediante el logotipo, se elige automaticamente
+7- Se puede añadir paginas y funciones (opcional)
+8- Se clicka en el boton construir mi sitio web y se elige el tema favorito
+
+¡IMPORTANTE HACER ESTO EN LA BD FINAL¡
+9- Se prueban distintas funcionalidades (editar la pagina añdadiendo la ubicacion,mapa,imagenes,crear nueva pagina a la que acceder y crear una identificacion de llamada a la acccion)
+ 9.1- Se prueba la funcionalidad de "Publicacion de blog" (punto 1.1 de creacion de entrada de blog)
+
+INSTALACION MODULO SITIO WEB (FUNCIONANDO TAMBIEN)
+(Viene instalado por defecto, pero sino habria que realizar lo siguiente)
+1- Se introduce las credenciales para entrar al software (correo: admin, contraseña: admin)
+2- Se quita el filtro de "Aplicaciones"
+3- Se introduce en la barra de busqueda las palabras "Sitio Web"
+4- Se selecciona la opcion "Activar" que se encuentra en el modulo Sitio Web
+(para instalar y activar la opcion FAQ es similar pero buscando en el buscador la palabra "FAQ")
+
+CREACION DE ENTRADA DE BLOG CON IMAGENES Y "CALL-TO-ACTION" ()
+1- Si se accede desde "http://localhost:8069/odoo/apps", se selecciona el cuadrado de arriba a la izquierda y se selecciona la opcion "Sitio Web"
+(si el sitio web/blog no esta creado se realiza lo comentado anteoriormente)
+  1.1- Si se quiere realizar una publicacion del blog,se selecciona la opcion "Nuevo", seleccionando la opcion "Publicacion de blog" y realizando las siguientes funciones (imagenes y CTA)
+  (para acceder a los blogs de nuestro sitio web, es clickando el simbolo "+", luego la opcion "Blogs" y alli se puede seleccionar el blog, y a partir de ahi editarlos)
+2- Se selecciona la opcion "Editar" arriba a la derecha de la pantalla  
+3- Se arrastra la opcion "Imagenes" (o bien "Imagen" si se quiere importar alguna foto del equipo local) en donde se quiera poner las imagenes, y posteriormente se elige la imagen que se quiere poner en esa posicion en la entrada del blog
+4- Se arrastra la opcion "Identificacion de llamada a la accion" en donde se quiera poner el CTA y se edita poniendo la frase "¿Quieres saber mas sobre nosotros", enlazandolo con la parte de abajo de la pagina (#bottom) al clickar "Mas Informacion ->"
+5- Se selecciona la opcion "Guardar" arriba a la derecha
+
+CREACION DE PAGINA WEB CON SECCION DE PREGUNTAS FRECUENTES (FAQ)
+1- Se activa la opcion de "FAQ" (comentado en la seccion "INSTALACION MODULO SITIO WEB")
+2- Al accder a nuestro Sitio Web de ropa, se clicka en el simbolo "+" y se selecciona la opcion "Foro"
+3- Se realiza una pregunta de ejemplo seleccionando "Nueva publicacion" o bien respondiendo a alguna cuestion
+4- Se realizan pruebas contestandose a uno mismo y realizando preguntas
+
+EXPORTACION DE UNA DB (GENERACION BACKUP DE LA BD EN ZIP)
+1- Se accede a la URL "http://localhost:8069/web/database/manager"
+2- Se selecciona la BD a exportar, seleccionando la opcion de "Backup"
+3- Se introduce la master passwd y se clicka el boton Backup
+
+IMPORTACION DE UNA BD (COMO SELECCIONAR UNA DETEMINADA BD PARA PODER USARLA)
+1- Se accede a la URL "http://localhost:8069/web/database/manager" o bien si se accede desde "http://localhost:8069/web/database/selector"
+2- Se selecciona la opcion "Restore Database" o "or restore a database", si se accede desde el selector de BD
+3- Se introduce la master passwd y el nombre de la BD a importar
+4- Se selecciona si la BD a importar es una copia o ha sido movida
+5- Se clicka en el boton de "Continue"
+
+PROBAR QUE FUNCIONA BIEN + REVISAR QUE BD NO TENGA INFORMACION PERSONAL (ns muy bn a que se refiere)
