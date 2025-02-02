@@ -1,0 +1,17 @@
+Instalación en máquina remota (acceder a traves de la URL : "http://IP_server:8069"
+1- Crear cuenta de AWS
+2- Crear una instancia, accediendo previamente al apartado de EC2 y seleccionando la opcion "Instancias" (EC2 es un servidor virtual para ejecutar la bd y el software odoo)
+3- Antes de lanzar el servidor mediante el comando "sudo docker-compose up -d" (archivo docker-compose.yml, al obtenerlo de este repositorio al hacer "git clone ..."), deberemos de añadir una regla de entrada para que mediante la IP y el puerto 8069 se pueda acceder desde una maquina remota
+  3.1- Se accede a la pestaña "Seguridad" de la instancia creada y dispuesta a lanzar
+  3.2- Se selecciona el link del grupo de seguridad
+  3.3- Se selecciona el grupo de seguridad y se selecciona la pestaña de abajo llamada "Reglas de entrada"
+  3.4- Se selecciona la opcion "Editar reglas de Entrada" y se selecciona la opcion de "Agregar regla" con las siguientes especificaciones:
+    - Tipo: Custom TCP Rule
+    - Protocolo: TCP
+    - Puerto: 8069
+    - Origen: 0.0.0.0/0 (permite acceso desde cualquier IP)
+    - Alternativa más segura: Configura tu IP pública como origen (por ejemplo: TU_IP/32).
+  3.5- Se guardan los cambios
+4- Se lanza la instancia dandole al boton de "Estado de la instancia" seleccionando la opcion "Iniciar Instancia"
+5- Al crear la instancia y rellenar las atributos de esta instancia virtual con su debida configuracion, deberemos acceder mediante una terminal estilo Ubuntu/Linux, clickando en el boton de "Conectar" para así desplegar una terminal y conectarnos mediante SSH a esta maquina
+6- Al estar conectados se levanta el docker-compose (mediante el comando anteriormente indicado) y ya es funcional desde una maquina remota a traves de: "http://IP_server:8069"
