@@ -64,4 +64,30 @@ IMPORTACION DE UNA BD (COMO SELECCIONAR UNA DETEMINADA BD PARA PODER USARLA)
 4- Se selecciona si la BD a importar es una copia o ha sido movida
 5- Se clicka en el boton de "Continue"
 
-PROBAR QUE FUNCIONA BIEN + REVISAR QUE BD NO TENGA INFORMACION PERSONAL (ns muy bn a que se refiere)
+CONFIGURACION DE CONTRASEÑA MAESTRA
+1- Se accede a la URL "http://localhost:8069/web/database/manager"
+2- Mediante la master passwd de esa sesión/equipo local, se tendra que seleccionar la opcion "Set Master Passwd"
+3- Se introduce la master passwd actual (de esa sesion), y la nueva master passwd a configurar
+4- Se clicka la opcion de Continue
+
+CREACION DE BD
+1- Se accede a la URL "http://localhost:8069" redirigiendose en caso de ser la primera vez, en una pagina de creacion de BD, o si no es la primera vez
+acceder a "http://localhost:8069/web/database/manager"
+2- En caso de ser la primera vez, se rellena los distintos campos/atributos, creando el usuario admin:admin, y si no es la primera vez, se selecciona la opcion Create DataBase
+3- Se selecciona la opcion de Create DataBase en caso de la primera vez para crearla, y el boton de continue, rellenando todos los campos mencionados en el apartado anteoriormente
+pulsando el boton continue tambien, para crear la BD teniendo otra ya creada
+
+COPIA DE SEGURIDAD DE BD (IGUAL QUE EXPORTACION DE UNA DB)
+1- Se accede a la URL "http://localhost:8069/web/database/manager"
+2- Se selecciona la BD a exportar, seleccionando la opcion de "Backup"
+3- Se introduce la master passwd (local) y se clicka el boton Backup
+
+DUPLICACION DE BD
+1- Se accede a la URL "http://localhost:8069/web/database/manager"
+2- Se selecciona la opcion de Duplicate
+3- Se rellena los campos de master passwd, database name, el nuevo nommbre
+4- Se selecciona la opcion de Continue
+
+ELIMINACION DE BD
+
+RESTAURACION DE BD
