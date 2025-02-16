@@ -77,7 +77,7 @@ acceder a "http://localhost:8069/web/database/manager"
 3- Se selecciona la opcion de Create DataBase en caso de la primera vez para crearla, y el boton de continue, rellenando todos los campos mencionados en el apartado anteoriormente
 pulsando el boton continue tambien, para crear la BD teniendo otra ya creada
 
-COPIA DE SEGURIDAD DE BD (IGUAL QUE EXPORTACION DE UNA DB)
+COPIA DE SEGURIDAD DE BD (IGUAL QUE EXPORTACION DE UNA BD)
 1- Se accede a la URL "http://localhost:8069/web/database/manager"
 2- Se selecciona la BD a exportar, seleccionando la opcion de "Backup"
 3- Se introduce la master passwd (local) y se clicka el boton Backup
@@ -89,5 +89,14 @@ DUPLICACION DE BD
 4- Se selecciona la opcion de Continue
 
 ELIMINACION DE BD
+1- Se accede a la URL "http://localhost:8069/web/database/manager"
+2- Se selecciona la opcion de Delete
+3- Se introduce la master passwd local de ese equipo (sino sera la que se creo inicialmente en la primera sesion)
+4- Se selecciona la opcion Delete
 
-RESTAURACION DE BD
+RESTAURACION DE BD (IGUAL QUE IMPORTACION DE UNA BD)
+1- Se accede a la URL "http://localhost:8069/web/database/manager" o bien si se accede desde "http://localhost:8069/web/database/selector"
+2- Se selecciona la opcion "Restore Database" o "or restore a database", si se accede desde el selector de BD
+3- Se introduce la master passwd y el nombre de la BD a importar
+4- Se selecciona si la BD a importar es una copia o ha sido movida
+5- Se clicka en el boton de "Continue"
