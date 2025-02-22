@@ -112,14 +112,14 @@ CONFIGURACION DE SERVIDOR SMTP (para estos apartados se ha creado una cuenta de 
   - Ir a "Contraseñas de aplicación" (en la misma sección de seguridad).
   - Selecciona Correo y Otro (personalizado) → Escribe "Odoo".
   - Genera la contraseña y copia el código (tendrá 16 caracteres).
-  - Usa esta nueva contraseña en la configuración de SMTP en Odoo, en lugar de tu contraseña normal (es esta -> yygf xyxe bfji unyn )
+  - Usa esta nueva contraseña en la configuración de SMTP en Odoo, en lugar de tu contraseña normal (es esta -> hlxv ueim lvmw ibvz )
 4- Se rellenan los campos con los siguientes datos: (ver captura)
 Parámetro         Valor
 Servidor SMTP     smtp.gmail.com
 Puert             587 (para TLS) o 465 (para SSL)
 Encriptación      TLS (STARTTLS) o SSL/TLS
 Nombre de usuario grupobsisinf2@gmail.com 
-Contraseña        yygf xyxe bfji unyn
+Contraseña        hlxv ueim lvmw ibvz
 5- Se selecciona el boton de "Probar Conexion"
 
 ENVIO DE CORREOS A TRAVES DEL SERVIDOR SMTP (es una opcion de muchas)
@@ -138,6 +138,6 @@ Nombre Servidor IMAP	imap.gmail.com
 Puerto	993
 Encriptación	SSL/TLS
 Nombre de usuario	 grupobsisinf2@gmail.com 
-Contraseña	yygf xyxe bfji unyn
+Contraseña	hlxv ueim lvmw ibvz
 Crear un registro asociado> Foro (se ha seleccionado la opcion Foro como Acción para los mensajes entrantes)
 3- Al recibir un nuevo correo se observa en la bandeja de entrada, viendo que al entrar un correo se puede crear un registro asociado -> Foro en este caso
