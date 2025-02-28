@@ -141,3 +141,21 @@ Nombre de usuario	 grupobsisinf2@gmail.com
 Contraseña	hlxv ueim lvmw ibvz
 Crear un registro asociado> Foro (se ha seleccionado la opcion Foro como Acción para los mensajes entrantes)
 3- Al recibir un nuevo correo se observa en la bandeja de entrada, viendo que al entrar un correo se puede crear un registro asociado -> Foro en este caso
+
+INSTALACION DEL MODULO FABRICACION Y CONFIGURACION
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "Fabricacion"
+3- Seleccionamos en el modulo Fabricacion la opcion "Activar"
+4- En el apartado de Ajustes, en especifico Operaciones, seleccionaremos la opcion "Ordenes de trabajo"
+
+INSTALACION DEl MODULO INVENTARIO Y CONFIGURACION
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "Inventario"
+3- Seleccionamos en el modulo Inventario la opcion "Activar"
+4- En el apartado de Ajustes, en especifico Almacén, seleccionaremos las opciones "Ubicaciones de almacenamiento" y "Rutas multietapa"
+
+INSTALACION DEL MODULO COMPRAS Y CONFIGURACION
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "Compra"
+3- Seleccionamos en el moduloo Compra la opcion "Activar"
+
