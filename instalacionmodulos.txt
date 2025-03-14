@@ -171,7 +171,7 @@ CREACION DE UN DEPARTAMENTO DE ADMINISTRACION CON UN RESPONSABLE ASIGNADO
 4- Rellenamos los distintos campos para poder crear el Departamento de Administracion
 5- Seleccionamos la opcion de Empleados, y a su vez Empleados
 6- Se selecciona la opcion de Nuevo
-7- Rellenamos los distintos campos del empleado a asignar al departamento previamente creado
+7- Rellenamos los distintos campos del empleado a asignar al departamento previamente creado (se crea y se le asigna el puesto de trabajo Responsable)
 8- Se comprueba que el departamento tiene asignado un responsable
 
 CREACION DE UN DEPARTAMENTO DE VENTAS CON UN RESPONSABLE DISTINTO
@@ -181,7 +181,7 @@ CREACION DE UN DEPARTAMENTO DE VENTAS CON UN RESPONSABLE DISTINTO
 4- Rellenamos los distintos campos para poder crear el Departamento de Administracion
 5- Seleccionamos la opcion de Empleados, y a su vez Empleados
 6- Se selecciona la opcion de Nuevo
-7- Rellenamos los distintos campos del empleado a asignar al departamento previamente creado
+7- Rellenamos los distintos campos del empleado a asignar al departamento previamente creado (se crea y se le asigna el puesto de trabajo Responsable)
 8- Se comprueba que el departamento tiene asignado un responsable, siendo distinto al asginado al departamento de Administracion
 
 INSTALACION Y CONFIGURACION EMPLEADOS
