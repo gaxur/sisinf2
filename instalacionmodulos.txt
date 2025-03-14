@@ -1,4 +1,4 @@
-¡IMPORTANTE¡ -> REALIZAR TODO LO SIGUIENTE EN LA BD FINAL A ENTREGAR + CAPTURAS DE PANTALLA PROCESO INSTALACION INICIAL + CAPTURAS DE PANTALLA INSTALACION MODULOS (1 por pagina)
+DEDE¡IMPORTANTE¡ -> REALIZAR TODO LO SIGUIENTE EN LA BD FINAL A ENTREGAR + CAPTURAS DE PANTALLA PROCESO INSTALACION INICIAL + CAPTURAS DE PANTALLA INSTALACION MODULOS (1 por pagina)
 ¡IMPORTANTE¡ -> PARA CAMBIAR EL NOMBRE DE LA BD, SE PUEDE IMPORTAR LA DE GITHUB Y DUPLICARLA CAMBIANDOLE EL NOMBRE
 
 CONFIGURACION INICIAL CREACION DB (credenciales y demas)
@@ -158,4 +158,40 @@ INSTALACION DEL MODULO COMPRAS Y CONFIGURACION
 1- Seleccionamos la opcion Aplicaciones
 2- Buscamos en el buscador la palabra "Compra"
 3- Seleccionamos en el moduloo Compra la opcion "Activar"
+
+INSTALACION Y CONFIGURACION PROCESO DE SELECCION (RECLUTAMIENTO)
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "Reclutamiento"
+3- Seleccionamos en el modulo Reclutamiento la opcion "Activar"
+
+CREACION DE UN DEPARTAMENTO DE ADMINISTRACION CON UN RESPONSABLE ASIGNADO
+1- Accedemos al modulo Empleados 
+2- Seleccionamos la opcion Departamentos
+3- Seleccionamos la opcion de Nuevo
+4- Rellenamos los distintos campos para poder crear el Departamento de Administracion
+5- Seleccionamos la opcion de Empleados, y a su vez Empleados
+6- Se selecciona la opcion de Nuevo
+7- Rellenamos los distintos campos del empleado a asignar al departamento previamente creado
+8- Se comprueba que el departamento tiene asignado un responsable
+
+CREACION DE UN DEPARTAMENTO DE VENTAS CON UN RESPONSABLE DISTINTO
+1- Accedemos al modulo Empleados 
+2- Seleccionamos la opcion Departamentos
+3- Seleccionamos la opcion de Nuevo
+4- Rellenamos los distintos campos para poder crear el Departamento de Administracion
+5- Seleccionamos la opcion de Empleados, y a su vez Empleados
+6- Se selecciona la opcion de Nuevo
+7- Rellenamos los distintos campos del empleado a asignar al departamento previamente creado
+8- Se comprueba que el departamento tiene asignado un responsable, siendo distinto al asginado al departamento de Administracion
+
+INSTALACION Y CONFIGURACION EMPLEADOS
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "Empleados"
+3- Seleccionamos en el modulo Empleados la opcion "Activar"
+
+(no es necesario todavia pero para la maxima nota creo que si)
+INSTALACION FORMULARIO DE ENTREVISTA DE RECLUTAMIENTO DE RECURSOS HUMANOS
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "humanos"
+3- Seleccionamos en el modulo "Formulario de entrevista de reclutamiento de recursos humanos" la opcion "Activar"
 
