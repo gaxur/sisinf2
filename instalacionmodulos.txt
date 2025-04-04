@@ -195,3 +195,12 @@ INSTALACION FORMULARIO DE ENTREVISTA DE RECLUTAMIENTO DE RECURSOS HUMANOS
 2- Buscamos en el buscador la palabra "humanos"
 3- Seleccionamos en el modulo "Formulario de entrevista de reclutamiento de recursos humanos" la opcion "Activar"
 
+INSTALACION Y CONFIGURACION MODULO TABLEROS
+1- Seleccionamos la opcion Aplicaciones
+2- Buscamos en el buscador la palabra "Tableros"
+3- Seleccionamos en el modulo "Tableros" la opcion "Activar"
+4- Accedemos al modulo Tableros
+5- Observamos las distintas gráficas en el modulo "Tableros", viendo los sistemas de BI generados por este módulo
+6- Investigamos sobre otros sistemas de Business Intelligence (BI) instalado anteoriormente por otros módulos, ejemplos de BI en otros modulos:
+  6.1- CRM: accedemos al modulo CRM y en el apartado "Ventas" seleccionamos la opción "Equipos"
+  6.2- CRM: accedemos al modulo CRM y en el apartado "Informes" seleccionamos la opcion "Flujo" o "Leads"
