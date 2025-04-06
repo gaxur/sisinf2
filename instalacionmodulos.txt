@@ -201,6 +201,75 @@ INSTALACION Y CONFIGURACION MODULO TABLEROS
 3- Seleccionamos en el modulo "Tableros" la opcion "Activar"
 4- Accedemos al modulo Tableros
 5- Observamos las distintas gráficas en el modulo "Tableros", viendo los sistemas de BI generados por este módulo
-6- Investigamos sobre otros sistemas de Business Intelligence (BI) instalado anteoriormente por otros módulos, ejemplos de BI en otros modulos:
+6- Investigamos sobre otros sistemas de Business Intelligence (BI) instalados anteoriormente por otros módulos, donde se pueden ver KPIs (Indicadores ) en otros modulos:
+ (antes de eso tenemos que saber que es un BI, Business Intelligence, es un conjunto de estrategias, procesos, aplicaciones,datos, tecnologías y arquitecturas
+ técnicas que se utilizan para recopilar, analizar, presentar y difundir información empresarial con el fin de de apoyar la toma de decisiones)
   6.1- CRM: accedemos al modulo CRM y en el apartado "Ventas" seleccionamos la opción "Equipos"
   6.2- CRM: accedemos al modulo CRM y en el apartado "Informes" seleccionamos la opcion "Flujo" o "Leads"
+  6.3- VENTAS: accedemos al modulo "Ventas" y en el apartado "Pedidos" seleccionamos la opcion "Equipo de ventas"
+  6.4- VENTAS: accedemos al modulo "Proyecto" y en el apartado "Informes" seleccionamos la opcion "Ventas" , "Comerciales", "Productos" o "Clientes"
+  6.5- PROYECTO: accedemos al modulo "Proyecto" y en el apartado "Informes" seleccionamos la opcion "Analisis de tareas"
+  6.6- SITIO WEB: accedemos al modulo "Sitio Web" y en el apartado "Informes" seleccionamos la opcion "Analytics"
+  6.7- COMPRA: accedemos al modulo "Compra" y en el apartado "Informes" seleccionamos la opcion "Compra" donde saldrán un "Análisis de la compra"
+  6.8- INVENTARIO: accedemos al modulo "Inventario" y en el apartado "Información general" donde saldrán un "Resumen de Inventario"
+  6.9- FABRICACION: accedemos al modulo "Fabricación" y en el apartado "Informes" seleccionamos la opcion "Órdenes de trabajo"
+  6.10- FABRICACION: accedemos al modulo "Fabricación" y en el apartado "Informes" seleccionamos la opcion "Eficiencia general de los equipos"
+  6.11- RECLUTAMIENTO: accedemos al modulo "Reclutamiento" y en el apartado "Informes" seleccionamos la opcion "Análisis del reclutamiento"
+
+
+CREACION DE 3 INFORMES + AÑADIR AL TABLON PERSONAL (ADMIN)
+1- Creacion de un informe de tipo "CRM", en especifico "Pronostico":
+  1.1- Seleccionamos el modulo CRM
+  1.2- Seleccionamos el apartado "Informes" y seleccionamos la opcion "Pronostico"
+  1.3- Rellenamos los distintos campos para crear un pronostico de una empresa determinada (en este caso de FabricaRopa)
+  1.4- Se ha elegido realizar este informe de pronostico por lo siguiente:
+       Este informe de pronóstico se utiliza para prever los ingresos futuros basados en las oportunidades de ventas actuales del CRM.
+       El informe muestra el valor estimado de las oportunidades, la probabilidad de cierre y el rendimiento de los vendedores, reflejandose en un estado (calificado, propuesta ó ganado)
+       donde a su vez se especifica el pronostico de ingresos y la probabilidad de cumplirse entre otras cosas. Además, tiene sentido realizar este informe, ya que 
+       está relacionado con otros módulos ya utilizados en otras practicas:
+
+          CRM (Customer Relationship Management): Este módulo es el principal, ya que maneja las oportunidades de ventas, las interacciones con clientes,
+          y la asignación de vendedores.
+
+          Ventas (Sales): Este módulo se ve involucrado cuando las oportunidades de CRM se convierten en pedidos de ventas.
+
+          Contabilidad (Accounting): Para calcular los ingresos derivados de las ventas pronosticadas.
+
+2- Creacion de un informe de tipo "Proyecto", en especifico "Analisis de tareas"
+  2.1- Seleccionamos el modulo Proyecto
+  2.2- Seleccionamos el apartado "Informes" y seleccionamos la opcion "Analisis de tareas"
+  2.3- Cabe destacar que este informe se puede generar automaticamente si ..
+  2.4- Se ha elegido realizar este informe de analisis de tareas por lo siguiente:
+       Este informe se ha elegido porque es una herramienta fundamental para supervisar el progreso de las tareas dentro de los proyectos y proporcionar una visión clara
+       de cómo se están gestionando los recursos y el tiempo de trabajo. Al tener un análisis detallado de las tareas, se facilita la toma de decisiones respecto a la asignación
+       de recursos, la identificación de posibles retrasos y la gestión de la productividad. Además, tiene sentido realizar este informe, ya que está relacionado con otros
+       módulos ya utilizados en otras practicas:
+          
+          Proyecto (Project): Este es el módulo principal que gestiona todas las tareas y proyectos dentro de Odoo, el cual lo utilizamos para gestionar las tareas/prácticas, 
+          gestionando a su vez las tareas en proceso/pendientes o ya realizadas.
+
+          Ventas (Sales): En algunos casos, las tareas pueden estar relacionadas con proyectos de clientes, por lo que los datos de ventas también pueden influir en este informe.
+
+          Contabilidad (Accounting): Si las tareas están asociadas con costos o presupuestos de proyectos, la contabilidad puede ser un módulo relevante para el análisis financiero
+          del proyecto.
+
+3- Creacion de un informe de tipo "Inventario", en especifico "Ubicaciones"
+  3.1- Seleccionamos el modulo Inventario
+  3.2- Seleccionamos el apartado "Informes" y seleccionamos la opcion "Ubicaciones"
+  3.3- Rellenamos los campos del nombre de la ubicacion y el producto a seleccionar para registrar su ubicacion
+  3.4- Se ha elegido realizar este informe de ubicaciones por lo sigiente:
+       Este informe ha sido elegido porque permite realizar un seguimiento detallado de la ubicación de los productos dentro del almacén, lo cual es crucial para la gestión 
+       eficiente del inventario. Saber exactamente dónde están almacenados los productos ayuda a optimizar los procesos de gestión de stock, envíos y transferencias 
+       de productos entre ubicaciones. Además, tiene sentido realizar este informe, ya que está relacionado con otros módulos ya utilizados en otras practicas:
+
+          Inventario (Inventory): Este módulo es el principal y gestionará todas las ubicaciones, el movimiento de productos, y el control de existencias.
+
+          Ventas (Sales): El informe de ubicaciones se relaciona con el módulo de ventas para asegurar que los productos estén disponibles para el envío a 
+          los clientes según las ubicaciones de stock.
+
+          Compras (Purchasing): El control de ubicaciones también se relaciona con las compras, ya que los productos adquiridos deben ser almacenados correctamente 
+          en las ubicaciones correspondientes.
+
+4- En cada uno de la creacion de estos informes, se ha añadido al tablon personal del admin (cuenta iniciada con las credenciales admin:admin) seleccionado la opcion "Ajustes"
+(la rueda de engranaje), donde posteriormente sale la opcion de "Añadir", donde se debe seleccionar esta opcion.
+
