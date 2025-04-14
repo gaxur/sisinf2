@@ -273,3 +273,119 @@ CREACION DE 3 INFORMES + AÑADIR AL TABLON PERSONAL (ADMIN)
 4- En cada uno de la creacion de estos informes, se ha añadido al tablon personal del admin (cuenta iniciada con las credenciales admin:admin) seleccionado la opcion "Ajustes"
 (la rueda de engranaje), donde posteriormente sale la opcion de "Añadir", donde se debe seleccionar esta opcion.
 
+
+TABLERO PERSONAL DE UN USUARIO EXPERTO (8 puntos)
+1- Para poder acceder a la cuenta de un usuario especifico para poder sacar los informes previamente realizados en otras practicas se deben seguir los siguientes pasos 
+(esto se debe ya que no nos acordamos de la contraseña del usuario ficticio creado en anteriores practicas):
+  1.1- Accedemos al apartado de "Ajustes"
+  1.2- Accedemos al apartado de "Usuarios"
+  1.3- Seleccionamos el usuario para cambiar la contraseña en nuestro caso (Usuario1Ingles)
+  1.4- Seleccionamos la rueda de engranaje (Ajustes) y seleccionamos la opcion "Cambiar contraseña"
+  1.5- Cambiamos la contraseña por una nueva
+2- Cerramos sesion (seleccionando nuestra foto de perfil y seleccionamos la opcion "Cerrar Sesion") y accedemos como ese usuario (Usuario1Ingles)
+3- Introducimos las credenciales con la nueva contraseña cambiada (esto no lo pongas en la memoria pero es u19249488@gmail.com la contraseña, es igual al correo)
+4- En nuestro caso vamos a acceder con el usuario u19249488@gmail.com, el cual se encargó en practicas anteriores de crear tres tipos de informes para el modulo "Ventas"
+5- Accedemos al modulo "Ventas"
+6- Accedemos al apartado "Informes" o "Reporting" y seleccionamos el apartado (en la captura se ve que se encuentran estos tres informes en el tablero personal de este user):
+(obviamente todos los siguientes informes estan relacionados con el modulo "Ventas" por lo que estara relacionado con la practica en la que hicimos esto de "Ventas" ns cual es)  
+  6.1- "Vendedores" o "Salespersons" :
+  
+  Este informe proporciona un análisis detallado del rendimiento de cada vendedor, incluyendo métricas como:
+
+    Total de ventas realizadas (en cantidad y valor monetario).
+
+    Tasa de conversión (pedidos confirmados vs. oportunidades perdidas).
+
+    Clientes nuevos captados.
+
+    Comparativa mensual/trimestral.
+
+Justificación y Relevancia:
+
+    Para el Gerente de Ventas: Le permite identificar a los vendedores más eficientes y aquellos que necesitan capacitación.
+
+    Toma de decisiones: Ayuda a asignar bonificaciones, redistribuir oportunidades de venta o ajustar metas.
+
+    Impacto en Ventas: Mejora la productividad del equipo al enfocarse en estrategias basadas en datos.
+
+Ubicación:
+
+    Tablero del Gerente de Ventas (por su rol estratégico en la gestión del equipo).
+  
+
+
+
+
+  6.2- "Products" o "Productos" :
+  
+  Descripción:
+
+Este informe clasifica los productos según:
+
+    Volumen de ventas (unidades vendidas).
+
+    Margen de ganancia (rentabilidad por producto).
+
+    Estacionalidad (ventas por temporada).
+
+    Stock disponible vs. demanda.
+
+Justificación y Relevancia:
+
+    Para el Jefe de Inventario y Ventas: Permite optimizar el stock, evitando faltantes o excesos.
+
+    Toma de decisiones: Facilita la planificación de promociones, descuentos o eliminación de productos poco rentables.
+
+    Impacto en Ventas: Asegura que los productos con mayor demanda estén disponibles, mejorando la satisfacción del cliente.
+
+Ubicación:
+
+    Tablero del Jefe de Almacén y el Equipo de Ventas (para coordinación entre inventario y estrategias comerciales).
+
+
+
+
+
+
+
+
+  6.3- "Customers" o "Clientes" :
+  
+  Descripción:
+
+Este informe categoriza a los clientes según:
+
+    Frecuencia de compra (clientes recurrentes vs. ocasionales).
+
+    Valor monetario (clientes VIP vs. promedio).
+
+    Historial de pagos (morosidad o puntualidad).
+
+    Preferencias de producto.
+
+Justificación y Relevancia:
+
+    Para el Departamento de Marketing y Ventas: Permite diseñar campañas personalizadas (ofertas para clientes leales).
+
+    Toma de decisiones: Identifica clientes de alto valor para priorizar su atención o recuperar clientes inactivos.
+
+    Impacto en Ventas: Incrementa la fidelización y el retorno de inversión (ROI) en estrategias comerciales.
+
+Ubicación:
+
+    Tablero del Equipo de CRM y Ventas (para alinear estrategias de retención y captación).
+
+
+
+  7- Conclusion:
+
+  Estos tres informes (Vendedores, Productos y Clientes) refuerzan el módulo de Ventas en Odoo al proporcionar datos accionables para:
+
+    Optimizar el desempeño del equipo comercial.
+
+    Gestionar inventario de manera inteligente.
+
+    Fortalecer relaciones con clientes estratégicos.
+
+Cada informe está diseñado para usuarios específicos, asegurando que la información llegue a quienes pueden tomar decisiones clave, mejorando así la eficiencia y rentabilidad del departamento de ventas.
+  
